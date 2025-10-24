@@ -1,0 +1,4 @@
+kafka-python
+pandas
+flake8
+pytest

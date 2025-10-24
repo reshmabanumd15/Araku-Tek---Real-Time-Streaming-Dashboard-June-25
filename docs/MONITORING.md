@@ -1,0 +1,4 @@
+- Kafka consumer lag (e.g., Burrow/Prometheus later)
+- Spark streaming metrics: inputRowsPerSecond, processingTime
+- Redshift COPY/JDBC success & latency
+- Dashboard refresh times, cache hit rate

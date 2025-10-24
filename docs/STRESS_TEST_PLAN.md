@@ -1,0 +1,3 @@
+- Ramp from 500 → 5,000 events/sec in steps
+- Verify end-to-end latency p50/p95 under 2s/5s
+- Validate zero data loss during broker restarts

@@ -1,0 +1,17 @@
+{
+  "kafka.bootstrap.servers": "kafka:9092",
+  "kafka.security.protocol": "PLAINTEXT",
+  "input.topics": [
+    "orders",
+    "clicks"
+  ],
+  "checkpoint.location": "s3://<bucket>/checkpoints/rt_dashboard/",
+  "output.parquet.path": "s3://<bucket>/processed/rt_dashboard/",
+  "redshift": {
+    "url": "jdbc:redshift://<host>:5439/<db>",
+    "user": "<user>",
+    "password": "<password>",
+    "tempdir": "s3://<bucket>/redshift/tmp/",
+    "iam_role": "<arn:aws:iam::...:role/RedshiftCopyRole>"
+  }
+}

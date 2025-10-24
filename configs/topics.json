@@ -1,0 +1,14 @@
+{
+  "topics": [
+    {
+      "name": "orders",
+      "partitions": 6,
+      "replication": 1
+    },
+    {
+      "name": "clicks",
+      "partitions": 6,
+      "replication": 1
+    }
+  ]
+}

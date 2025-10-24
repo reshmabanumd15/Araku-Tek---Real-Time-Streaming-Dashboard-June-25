@@ -1,0 +1,4 @@
+- Kafka topics: orders, clicks
+- Spark: parsing, watermarking, 1-minute aggregates, hourly upserts
+- Redshift: hourly aggregate table (upsert), BI layer
+- Backfill: read NDJSON bootstrap files as micro-batches

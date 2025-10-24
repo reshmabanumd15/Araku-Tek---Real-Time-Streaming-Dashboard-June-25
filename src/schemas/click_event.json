@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "customer_id": {
+      "type": "integer"
+    },
+    "page": {
+      "type": "string"
+    },
+    "referrer": {
+      "type": "string"
+    },
+    "device": {
+      "type": "string"
+    },
+    "event_ts": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "event_id",
+    "customer_id",
+    "page",
+    "event_ts"
+  ]
+}
