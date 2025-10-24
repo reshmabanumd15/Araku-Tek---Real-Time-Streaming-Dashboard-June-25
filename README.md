@@ -1,4 +1,4 @@
-# Project: Real-Time Streaming Dashboard (Pro Edition)
+# Project: Real-Time Streaming Dashboard
 
 A production-style reference for **Kafka → Spark Structured Streaming → Redshift → Power BI** with
 large synthetic data, orchestration, monitoring, and load testing.
@@ -14,4 +14,4 @@ large synthetic data, orchestration, monitoring, and load testing.
 - **Docs** covering kickoff, design, monitoring, stress plan, retrospective
 - **CI** pipeline (flake8 + unit tests on helpers)
 
-> Replace placeholders (bootstrap servers, JDBC URL, roles, buckets) before deployment.
+
